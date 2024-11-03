@@ -58,11 +58,11 @@ def buscar_linguagens_por_ano(ano, headers):
 
 # Headers com token de autenticação
 headers = {
-    "Authorization": "token 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"
+    "Authorization": "token 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"
 }
 
 # Coletar dados para cada ano
-anos = [,2020,2023,2022, 2023, 2024]
+anos = [2020,2021,2022, 2023, 2024]
 dados_anuais = {ano: buscar_linguagens_por_ano(ano, headers) for ano in anos}
 
 # Configurar tamanho da figura e tamanho da fonte
